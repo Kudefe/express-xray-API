@@ -1,5 +1,8 @@
-const test = (msg) => {
-  console.log(msg);
-};
+import express from 'express'
+import router from './routes'
 
-export default test;
+const app = express();
+
+app.use('/api', router);
+
+export default app
