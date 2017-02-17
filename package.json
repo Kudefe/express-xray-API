@@ -18,6 +18,7 @@
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-preset-env": "^1.1.8",
+    "dotenv": "^4.0.0",
     "nodemon": "^1.11.0"
   }
 }
