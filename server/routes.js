@@ -9,6 +9,7 @@ import devblogs from './controllers/reddit/DevBlogs';
 import gamedesign from './controllers/reddit/GameDesign';
 import indiegaming from './controllers/reddit/IndieGaming';
 import indiedev from './controllers/reddit/IndieDev';
+import gamdevs from './controllers/gamasutra/GamDevs';
 
 
 router.get('/', basicController.get);
@@ -17,6 +18,7 @@ router.get('/reddit/devblogs', devblogs.get);
 router.get('/reddit/gamedesign', gamedesign.get);
 router.get('/reddit/indiegaming', indiegaming.get);
 router.get('/reddit/indiedev', indiedev.get);
+router.get('/gamasutra/gamdevs', gamdevs.get);
 
 
 export default router
