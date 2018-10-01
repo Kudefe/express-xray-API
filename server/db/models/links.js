@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
   , ObjectId = Schema.ObjectId;
 
 let Links = new Schema({
-  href: String,
+  url: String,
   title: String,
   image: String,
   excerpt: String,
